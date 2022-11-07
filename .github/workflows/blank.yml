@@ -32,6 +32,7 @@ jobs:
           server: ftpupload.net
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
+          local-dir: ./
           server-dir: /htdocs/
           dangerous-clean-slate: true
 
